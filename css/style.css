@@ -143,8 +143,18 @@ img {
     }
 
     .col {
-        width: 90%;
+        width: 96%;
         margin: auto;
+    }
+
+    .steps {
+        margin: 0;
+    }
+
+    .why-us {
+        padding: 3rem 0;
+        margin: 0;
+        background-color: rgb(34, 34, 34);
     }
 
     .lessons .col {
