@@ -129,10 +129,46 @@ img {
  ************************************************/
 
 
- 
 
- @media all and (max-width: 1140px) {
-    .container {
-      width: 100%;
+
+@media all and (max-width: 1140px) {
+   .container {
+        width: 100%;
     }
-  }
+}
+
+@media all and (max-width: 768px) {
+    .row {
+        display: block;
+    }
+
+    .col {
+        width: 90%;
+        margin: auto;
+    }
+
+    .lessons .col {
+        width: 100%;
+    }
+
+    .steps .col {
+        width: 100%;
+    }
+
+    .why-us .col-left {
+        width: 100%;
+    }
+
+    .why-us .col-right {
+        width: 100%;
+    }
+
+    .text {
+        padding-bottom: 7%;
+    }
+
+    .col-left img {
+        padding-bottom: 7%;
+    }
+}
+
