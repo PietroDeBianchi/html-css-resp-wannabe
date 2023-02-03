@@ -128,9 +128,6 @@ img {
     SOLUZIONE RESPONSIVE
  ************************************************/
 
-
-
-
 @media all and (max-width: 1140px) {
    .container {
         width: 100%;
@@ -174,11 +171,11 @@ img {
     }
 
     .text {
-        padding-bottom: 7%;
+        padding-bottom: 7.5%;
     }
 
     .col-left img {
-        padding-bottom: 7%;
+        padding-bottom: 7.5%;
     }
 }
 
